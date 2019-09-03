@@ -1,0 +1,5 @@
+a=int(input("x1: "))
+b=int(input("y1: "))
+c=int(input("x2: "))
+d=int(input("y2: "))
+print("두 점 사이의 거리= ",((a-c)**2+(b-d)**2)**0.5)
