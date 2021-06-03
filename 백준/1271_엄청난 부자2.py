@@ -1,0 +1,5 @@
+strr=input().split()
+n=int(strr[0])
+t=int(strr[1])
+print(n//t)
+print(n%t)
