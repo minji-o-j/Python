@@ -1,0 +1,31 @@
+alpha = 'abcdefghijklmnopqrstuvwxyz'
+print(alpha[3:10])
+print(alpha[-15:-7])
+print(alpha[10:5])# 안됨
+print(alpha[-5:-9])# 안됨
+print()
+print(alpha[:-5])
+print(alpha[:10])
+print(alpha[-10:0])# 안됨
+print()
+print(alpha[10:20:2])
+print(alpha[-20:-12:4])
+print(alpha[23:11:-3])
+print(alpha[10:-10:2]) # 안됨
+print()
+print(alpha[:10:3])
+print(alpha[:-10:3])
+print(alpha[:-1:2])
+print(alpha[:-5:-2])
+print()
+print(alpha[10::2])
+print(alpha[-10::3])
+print(alpha[10::-2])
+print()
+print(alpha[::2])
+print(alpha[::-2])
+print(alpha[::-1])
+print()
+print(alpha[:])
+print(alpha[::])
+print(alpha[::-1])
