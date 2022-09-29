@@ -1,0 +1,12 @@
+book = 'Alice in Wonderland'
+book2 = book.upper()
+book3 = book.title()
+print(book)
+print(book2)
+print(book3)
+print()
+print(dir(str))
+print(book.capitalize())
+print(book.lower())
+print(book.count('o'))
+print(book.index('land'))
