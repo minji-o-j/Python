@@ -10,7 +10,7 @@ def solution(tickets):
     
     
     stack = ["ICN"] # dfs로 해야지 안되는 경우 이전 분기로 이동 가능하다 (오일러 경로)
-    route = []
+    route = [] # 가장 먼저 완료된(탐색이 끝나서 더이상 갈 수 없는) 지점부터 기
     while stack: 
         goto = stack[-1]# 다음 목적지
         if goto not in ticket_dict  : # key가 없으면 (이동불가)
