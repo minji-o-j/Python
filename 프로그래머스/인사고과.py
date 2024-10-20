@@ -18,3 +18,4 @@ def solution(scores):
                 answer +=1 # 순위 뒤로 밀림
             
     return answer
+ 
