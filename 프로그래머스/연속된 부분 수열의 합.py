@@ -19,3 +19,4 @@ def solution(sequence, k):
     answer.sort()
     
     return answer[0][1:]
+ 
